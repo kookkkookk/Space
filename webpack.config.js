@@ -134,9 +134,9 @@ const config = {
     plugins: [
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
-            title: 'IDE SPACE 德易空間設計',
-            description: 'IDE space 空間層次的美，生活尺度的善意。Life starts with good - 德易空間設計',
-            keywords: 'IDE SPACE, IDE SPACE STUDIO, 德易, 德易設計, 德易空間設計',
+            title: 'YUN DESIGN STUDIO 昀和室內裝修',
+            description: 'YUN design 空間層次的美，生活尺度的善意。Life starts with good - 昀和室內裝修',
+            keywords: 'YUN DESIGN, YUN DESIGN STUDIO, 昀和, 昀和室內裝修',
             filename: 'index.html',
             template: 'template/template.html',
             googleVerification: 'hH0bpRbrrTfUl1npUUnckCbf0mVk-Gm_QOV2iYF5qyE'

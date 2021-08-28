@@ -1,64 +1,76 @@
 header{
     width: 100%;
     height: auto;
-    border-top: 1px solid #8c6359;
+    // border-top: 1px solid #8c6359;
     position: fixed;
     z-index: 20;
-    //background-color: blue;
+    // background-color: blue;
     >div{
         width: 100%;
         max-width: 1920px;
-        height: 87px;
+        height: 112px;
         margin: 0 auto;
         position: relative;
-        //background-color: cornflowerblue;
+        // background-color: rgba($color: blue, $alpha: 0.25);
+        @include SCREEN_1440{
+            height: 100px;
+        }
+        @include SCREEN_900{
+            height: 88px;
+        }
         @include SCREEN_736{
-            height: 50px;
-            background-color: #191919;
+            height: 60px;
+            background-color: #313131;
         }
         .headerLogo{
-            background-image: url("~99_header_logo.png");
+            background-image: url("~logo-yundesign.png");
             background-size: contain;
-            width: 245px;
-            height: 40px;
+            width: 285px;
+            height: 80px;
             position: absolute;
             bottom: 0;
             left: 103px;
             transition: opacity 0.2s;
+            @include SCREEN_1440{
+                width: 265px;
+                height: 74px;
+                left: 45px;
+            }
             @include SCREEN_900{
-                width: 205px;
-                height: 33px;
-                left: 50px;
-                bottom: 29px;
+                width: 215px;
+                height: 60px;
+                left: 20px;
+                bottom: 15px;
             }
             @include SCREEN_736{
-                width: 195px;
-                height: 32px;
+                width: 125px;
+                height: 35px;
                 left: 30px;
-                bottom: 9px;
+                bottom: 12.5px;
                 &.moveMid{
                     left: 50%;
-                    margin-left: -97.5px;
+                    margin-left: -62.5px;
                 }
             }
             @include SCREEN_375{
-                width: 140px;
-                height: 23px;
+                width: 125px;
+                height: 35px;
                 left: 15px;
-                bottom: 13.5px;
+                bottom: 12.5px;
                 &.moveMid{
                     left: 50%;
-                    margin-left: -70px;
+                    margin-left: -62.5px;
                 }
             }
             >a{
                 display: block;
-                height: 40px;
+                height: 80px;
+                // background-color: red;
                 @include SCREEN_736{
-                    height: 32px;
+                    height: 63px;
                 }
                 @include SCREEN_375{
-                    height: 23px;
+                    height: 35px;
                 }
             }
         }
@@ -71,7 +83,7 @@ header{
             height: 40px;
             //background-color: blueviolet;
             position: absolute;
-            bottom: 5px;
+            bottom: 10px;
             right: 30px;
             @include SCREEN_375{
                 right: 15px;
@@ -115,7 +127,7 @@ header{
                 background-color: rgba($color: #0e0e0e, $alpha: 0.95);
                 display: inline-block;
                 float: none;
-                margin-top: 50px;
+                margin-top: 60px;
                 transition: all 0.4s ease-out;
             }
             >ul{
@@ -123,9 +135,6 @@ header{
                 padding: 0;
                 overflow: hidden;
                 margin: 0 45px;
-                // @include SCREEN_1280{
-                //     margin: 0 50px;
-                // }
                 @include SCREEN_736{
                     margin: 0px;
                 }

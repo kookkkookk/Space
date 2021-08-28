@@ -151,7 +151,7 @@ export default {
             </div>
             <div data-aos="fade-left" v-if="!isMobile" class="right">
                 <p data-aos="fade-down" data-aos-delay="500">自在與優雅，空間意念的詮釋</p>
-                <h2 data-aos="fade-down" data-aos-delay="300">IDE SPACE</h2>
+                <h2 data-aos="fade-down" data-aos-delay="300">YUN DESIGN</h2>
             </div>
         </div>
 
@@ -174,7 +174,7 @@ export default {
             <div data-aos="fade-down" v-else class="bg picMobile"><img src="~Home/03_schematically_mobile.jpg"></div>
             <div data-aos="fade-left" data-aos-delay="300" class="description">
                 <p>
-                    IDE SPACE 德易空間設計，<br>
+                    YUN DESIGN STUDIO 昀和室內裝修<br>
                     空間層次的美 ，生活尺度的善意。<br>
                     那些細微的觀察與習慣，<br>
                     堆砌了我們最重要的日常。<br>

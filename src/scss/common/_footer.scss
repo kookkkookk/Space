@@ -6,11 +6,11 @@ footer{
     >div.footerDsktop{
         width: 100%;
         max-width: 1920px;
-        height: 200px;
+        height: 220px;
         margin: 0 auto;
         padding-left: 143px;
         padding-right: 125px;
-        padding-top: 54px;
+        padding-top: 59px;
         position: relative;
         background-color: #d3d3d3;
         @include SCREEN_1366{
@@ -33,9 +33,9 @@ footer{
                 }
                 >span{
                     display: inline-block;
-                    width: 180px;
-                    height: 21px;
-                    background-image: url("~99_footer_logo.png");
+                    width: 176px;
+                    height: 19px;
+                    background-image: url("~standard_word-yundesign.png");
                     background-repeat: no-repeat;
                     background-size: contain;
                     margin-top: 5px;
@@ -51,6 +51,7 @@ footer{
                 display: inline-block;
                 font-size: 20px;
                 vertical-align: super;
+                color: #515151;
                 @include SCREEN_900 {
                     font-size: 16px;
                 }
@@ -59,11 +60,12 @@ footer{
                 font-family: 'MyriadPro-Light';
                 display: block;
                 font-weight: bold;
-                font-size: 20px;
-                color: #323232;
-                margin-top: 5px;
+                font-size: 23px;
+                color: #4b4b4b;
+                margin-top: 8px;
+                letter-spacing: 0.025em;
                 @include SCREEN_900 {
-                    font-size: 16px;
+                    font-size: 18px;
                     margin-top: 10px;
                 }
                 &:hover{
@@ -72,9 +74,11 @@ footer{
             }
             >p{
                 display: block;
-                size: 12px;
-                margin-top: 12px;
+                font-size: 14px;
+                color: #4b4b4b;
+                margin-top: 13px;
                 @include SCREEN_900 {
+                    font-size: 12px;
                     transform-origin: 0 0;
                     transform: scale(0.9);
                 }
@@ -121,29 +125,27 @@ footer{
         height: 135px;
         background-color: #191919;
         >h2{
-            font-size: 17px;
-            // font-family: Arial;
+            font-size: 18px;
             letter-spacing: 0.04em;
             color: #fff;
             line-height: 34px;
             text-align: center;
             padding-top: 38px;
             @include SCREEN_375{
-                line-height: 30px;
-                font-size: 15px;
+                line-height: 28px;
+                font-size: 14px;
                 padding-top: 40px;
             }
         }
         >p{
-            font-size: 14px;
-            // font-family: Arial;
+            font-size: 16px;
             letter-spacing: 0.05em;
             color: #fff;
             line-height: 28px;
             text-align: center;
             @include SCREEN_375{
                 font-size: 12px;
-                line-height: 24px;
+                line-height: 18px;
                 letter-spacing: 0.07em;
             }
         }

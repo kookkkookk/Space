@@ -74,23 +74,18 @@ export default {
                 <div class="creatorInformation">
                     <h3 data-aos="fade-right">品牌<span>創立</span></h3>
                     <!-- <div class="creator" data-aos="fade"><img src="~Branding/01_creator.jpg"></div> -->
-                    <h1 data-aos="fade-right">IDE SPACE STUDIO<br>德易空間設計</h1>
+                    <h1 data-aos="fade-right">YUN DESIGN STUDIO<br>昀和室內裝修</h1>
                     <h2 data-aos="fade-right" v-if="!isMobile">
                         「設計來自生活，生活因設計改變，<br>
                         回歸設計需求，以細節成就完美，彰顯本質。」<br>
-                        從名建築師事務所洗禮，成立德易創意團隊，<br>
+                        從大型設計公司、大元建築事務所洗禮，到創辦個人公司，<br>
                         三十年設計路，紮實耕耘始終如一，<br>
                         從住宅到商業，一件件精彩作品，造就多種形式的空間表情。
                     </h2>
                     <h2 data-aos="fade-right" v-else>
                         「設計來自生活，生活因設計改變，回歸設計需求，以細節成就完美，彰顯本質。」<br>
-                        從名建築師事務所洗禮，成立德易創意團隊，三十年設計路，紮實耕耘始終如一，從住宅到商業，一件件精彩作品，造就多種形式的空間表情。
+                        從大型設計公司、大元建築事務所洗禮，到創辦個人公司，三十年設計路，紮實耕耘始終如一，從住宅到商業，一件件精彩作品，造就多種形式的空間表情。
                     </h2>
-                    <!-- <ul>
-                        <li data-aos="fade-right">1989~1991 年曾任職 優騰國際室內設計有限公司 iDA Workplace + Strategy</li>
-                        <li data-aos="fade-right" data-aos-delay="200">1991~1998 年曾任職 大元聯合建築師事務所 KRIS YAO∣ARTECH</li>
-                        <li data-aos="fade-right" data-aos-delay="400">1999 年成立 日騰空間設計有限公司</li>
-                    </ul> -->
                 </div>
                 
                 <div class="spacePicGroup">
@@ -124,13 +119,13 @@ export default {
                             面對客戶與空間，我們堅持的只是一種價值觀，型隨機能、與時俱進，盡力改善優化，堅持自己的價值觀，相信美的感召力。
                         </li>
                         <li data-aos="fade-left" v-if="!isMobile">
-                            德易空間設計，以美感為軸，空間為伍，<br>
+                            YUN DESIGN，以美感為軸，空間為伍，<br>
                             將喜愛的白色美學，運用在設計生活中，<br>
                             可見單一與多元的包容與調和，<br>
                             純粹與共生搭配出的內斂與優雅。
                         </li>
                         <li data-aos="fade-left" v-else>
-                            德易空間設計，以美感為軸，空間為伍，將喜愛的白色美學，運用在設計生活中，可見單一與多元的包容與調和， 純粹與共生搭配出的內斂與優雅。
+                            YUN DESIGN，以美感為軸，空間為伍，將喜愛的白色美學，運用在設計生活中，可見單一與多元的包容與調和， 純粹與共生搭配出的內斂與優雅。
                         </li>
                         <li data-aos="fade-left" v-if="!isMobile">
                             如果說創作是天份，還有不斷的學習，<br>
