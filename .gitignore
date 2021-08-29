@@ -7,5 +7,4 @@ app
 /.sass-cache
 other/*
 backup_oldFn/*
-backup_online_version/*
 debug.log
