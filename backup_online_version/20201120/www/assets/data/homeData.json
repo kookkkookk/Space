@@ -1,0 +1,22 @@
+[
+    {
+        "bannerTitle": "LIFE STARTS",
+        "bannerSubTitle": "WITH GOOD DESIGN"
+    },
+    {
+        "bannerDesktopImg": [
+            "./images/Home/00_banner_desktop01.jpg",
+            "./images/Home/00_banner_desktop02.jpg",
+            "./images/Home/00_banner_desktop03.jpg",
+            "./images/Home/00_banner_desktop04.jpg",
+            "./images/Home/00_banner_desktop05.jpg"
+        ],
+        "bannerMobileImg": [
+            "./images/Home/00_banner_mobile01.jpg",
+            "./images/Home/00_banner_mobile02.jpg",
+            "./images/Home/00_banner_mobile03.jpg",
+            "./images/Home/00_banner_mobile04.jpg",
+            "./images/Home/00_banner_mobile05.jpg"
+        ]
+    }
+]
