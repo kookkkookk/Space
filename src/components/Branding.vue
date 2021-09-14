@@ -74,7 +74,7 @@ export default {
                 <div class="creatorInformation">
                     <h3 data-aos="fade-right">品牌<span>創立</span></h3>
                     <!-- <div class="creator" data-aos="fade"><img src="~Branding/01_creator.jpg"></div> -->
-                    <h1 data-aos="fade-right">YUN DESIGN STUDIO<br>昀和室內裝修</h1>
+                    <h1 data-aos="fade-right">YUN DESIGN STUDIO</h1>
                     <h2 data-aos="fade-right" v-if="!isMobile">
                         「設計來自生活，生活因設計改變，<br>
                         回歸設計需求，以細節成就完美，彰顯本質。」<br>

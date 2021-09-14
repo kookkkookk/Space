@@ -134,9 +134,9 @@ const config = {
     plugins: [
         new VueLoaderPlugin(),
         new HtmlWebpackPlugin({
-            title: 'YUN DESIGN STUDIO 昀和室內裝修',
+            title: 'YUN DESIGN STUDIO',
             description: 'YUN design 空間層次的美，生活尺度的善意。Life starts with good - 昀和室內裝修',
-            keywords: 'YUN DESIGN, YUN DESIGN STUDIO, 昀和, 昀和室內裝修',
+            keywords: 'yun design, yun design studio, 昀和, 昀和室內裝修',
             filename: 'index.html',
             template: 'template/template.html',
             googleVerification: 'hH0bpRbrrTfUl1npUUnckCbf0mVk-Gm_QOV2iYF5qyE'
