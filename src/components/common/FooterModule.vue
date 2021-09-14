@@ -14,7 +14,7 @@ export default {
         <div class="footerDsktop" v-if="!isMobile">
             <div class="textArea">
                 <h1><span></span></h1>
-                <h2>昀 和 室 內 裝 修</h2>
+                <!-- <h2></h2> -->
                 <a href="tel:0226270016">T 886 2 2627 0016</a>
                 <p>COPYRIGHT © YUN DESIGN STUDIO.　Creative 字造創意行銷　Design 予也創意</p>
             </div>
