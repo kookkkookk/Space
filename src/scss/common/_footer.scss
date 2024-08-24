@@ -21,66 +21,87 @@ footer{
             padding-left: 50px;
             padding-right: 40px;
         }
+        @include SCREEN_736{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: #191919;
+            height: auto;
+            padding-top: 50px;
+        }
         .textArea{
             float: left;
-            >h1{
-                display: inline-block;
-                font-size: 20px;
-                color: #323232;
-                overflow: hidden;
-                @include SCREEN_900{
-                    font-size: 16px;
-                }
-                >span{
+            >div{
+                >h1{
                     display: inline-block;
-                    width: 176px;
-                    height: 19px;
-                    background-image: url("~standard_word-yundesign.png");
-                    background-repeat: no-repeat;
-                    background-size: contain;
-                    margin-top: 5px;
-                    margin-right: 10px;
+                    font-size: 20px;
+                    color: #323232;
+                    overflow: hidden;
                     @include SCREEN_900{
-                        width: 165px;
+                        font-size: 16px;
+                    }
+                    >span{
+                        display: inline-block;
+                        width: 313px;
                         height: 19px;
-                        margin-right: 5px;
+                        background-image: url("~standard_word-yundesign2.png");
+                        background-repeat: no-repeat;
+                        background-size: contain;
+                        margin-right: 10px;
+                        @include SCREEN_900{
+                            width: 255px;
+                        }
+                        @include SCREEN_736{
+                            background-image: url("~standard_word-yundesign_mobile.png");
+                            width: 150px;
+                            height: 16px;
+                        }
                     }
                 }
-            }
-            >h2{
-                display: inline-block;
-                font-size: 20px;
-                vertical-align: super;
-                color: #515151;
-                @include SCREEN_900 {
-                    font-size: 16px;
+                >h2{
+                    display: inline-block;
+                    font-size: 20px;
+                    vertical-align: super;
+                    color: #515151;
+                    letter-spacing: 0.25em;
+                    transform: translateY(-1px);
+                    @include SCREEN_900 {
+                        font-size: 16px;
+                        transform: translateY(-3px);
+                    }
+                    @include SCREEN_736{
+                        color: #cdcccc;
+                        transform: translateY(1px);
+                        font-size: 18px;
+                    }
                 }
-            }
-            >a{
-                font-family: 'MyriadPro-Light';
-                display: block;
-                font-weight: bold;
-                font-size: 23px;
-                color: #4b4b4b;
-                margin-top: 8px;
-                letter-spacing: 0.025em;
-                @include SCREEN_900 {
-                    font-size: 18px;
-                    margin-top: 10px;
+                >a{
+                    font-family: 'MyriadPro-Light';
+                    display: block;
+                    font-weight: bold;
+                    font-size: 23px;
+                    color: #4b4b4b;
+                    margin-top: 8px;
+                    letter-spacing: 0.025em;
+                    visibility: hidden;
+                    @include SCREEN_900 {
+                        font-size: 18px;
+                        margin-top: 10px;
+                    }
+                    &:hover{
+                        text-decoration: underline;
+                    }
                 }
-                &:hover{
-                    text-decoration: underline;
-                }
-            }
-            >p{
-                display: block;
-                font-size: 14px;
-                color: #4b4b4b;
-                margin-top: 13px;
-                @include SCREEN_900 {
-                    font-size: 12px;
-                    transform-origin: 0 0;
-                    transform: scale(0.9);
+                >p{
+                    display: block;
+                    font-size: 14px;
+                    color: #4b4b4b;
+                    margin-top: 13px;
+                    @include SCREEN_900 {
+                        font-size: 12px;
+                        transform-origin: 0 0;
+                        transform: scale(0.9);
+                    }
                 }
             }
         }
@@ -90,11 +111,14 @@ footer{
             @include SCREEN_900{
                 margin-top: 25px;
             }
+            @include SCREEN_736{
+                margin-top: 50px;
+            }
             ul{
                 overflow: hidden;
                 li{
                     float: left;
-                    margin-left: 8px;
+                    // margin-left: 8px;
                     &:first-child a{
                         background-image: url("~99_footer_fbIcon.png");
                     }
@@ -122,25 +146,25 @@ footer{
     }
     >div.footerMobile{
         width: 100%;
-        height: 135px;
+        height: 115px;
         background-color: #191919;
         >h2{
             font-size: 18px;
             letter-spacing: 0.04em;
-            color: #fff;
+            color: #cdcccc;
             line-height: 34px;
             text-align: center;
             padding-top: 38px;
             @include SCREEN_375{
                 line-height: 28px;
                 font-size: 14px;
-                padding-top: 40px;
+                padding-top: 20px;
             }
         }
         >p{
             font-size: 16px;
             letter-spacing: 0.05em;
-            color: #fff;
+            color: #cdcccc;
             line-height: 28px;
             text-align: center;
             @include SCREEN_375{

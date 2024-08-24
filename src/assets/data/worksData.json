@@ -1,5 +1,32 @@
 [
     {
+        "classification": "Interiors",
+        "listingPageImg1": "./images/Works/work12/01_work_ListingPic12-1.jpg",
+        "listingLong": false,
+        "constructionName": "林口．福樺建設『富貴中山』<br>公共門廳及設施設計案",
+        "constructionDescription": "住宅巡禮",
+        "popupCoverImg": "./images/Works/work12/01_workPopup_Pic12-1.jpg",
+        "descriptionTitle": "雋刻永恆。",
+        "description": "座落城市一隅的現代住宅，在時光深處，優雅靜待，<br>入口門廳以東方古典詮釋當代，不僅是一個迎賓之所，<br>更像是一篇詩、一幅畫，講述著時間與空間的故事，<br>整體空間佈局，藉由青磁材料與綠林景觀自然共舞，<br>呈現「白」與「淨」質感氛圍，細細織就人文意境。<br><br>^^回家映入眼前—「鐵窗花隔屏」，重現台灣50年代鐵花窗，<br>鼎字線條靜靜矗立，賦予天𧶽的德澤與祝福，<br>每一線條，每一道光影，述說著對過往的尊重與對未來的憧憬，<br>時光緩步於門廳流淌，鐵花隔屏古韻輕吟，<br>歷史回眸，經典傳承，跳脫傳統與現代的框架，人文內斂以簡蘊美，<br>猶如藝術展廳，將時間凝固在每一處精緻的細節之中。",
+        "introduction": "完整的公設規劃，SPA、健身房、圖書室、交誼廳、瑜伽教室等，<br>主以為社區住戶，提供一個遠離塵囂與放鬆愜意的空間，<br>從動線、設計語彙、色彩與家飾選配，自然散發優雅和諧之美，<br>每一個角落為生活頌歌，蘊含靜謐思考的心靈之所，<br>每一瞬間化為永恆，生活細節中細見設計的柔婉溫度。",
+        "popupBannerGroup": [
+            "./images/Works/work12/01_workPopup_Switch12-1.jpg",
+            "./images/Works/work12/01_workPopup_Switch12-2.jpg",
+            "./images/Works/work12/01_workPopup_Switch12-3.jpg",
+            "./images/Works/work12/01_workPopup_Switch12-4.jpg",
+            "./images/Works/work12/01_workPopup_Switch12-5.jpg",
+            "./images/Works/work12/01_workPopup_Switch12-6.png",
+            "./images/Works/work12/01_workPopup_Switch12-7.jpg"
+        ],
+        "designConcept": "回歸純粹，褪去冗飾，賦予更多美學內涵，<br>不僅是居住之所，更是靈魂之棲，<br>簡約乾淨的空間，以材質與柔和色彩帶出空間的高雅，<br>不僅帶給社區公共空間無盡想像，更賦予家的獨一無二性。",
+        "popupEndCoverImgGroup": [
+            "./images/Works/work12/01_workPopup_Pic12-2.jpg",
+            "./images/Works/work12/01_workPopup_Pic12-3.jpg",
+            "./images/Works/work12/01_workPopup_Pic12-4.jpg"
+        ],
+        "endText": "林口．福樺建設『富貴中山』^公共門廳及設施設計案"
+    },
+    {
         "classification": "Commercial",
         "listingPageImg1": "./images/Works/work01/01_work_ListingPic01-1.jpg",
         "listingLong": false,

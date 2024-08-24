@@ -84,9 +84,9 @@ export default {
                         <div class="cover">
                             <h2 v-if="isMobile" data-aos="fade-right">{{item.subTypeName}}</h2>
                             <router-link :to="'news/'+index"
-                                        :class="item.mainImgDirection"
+                                        :class="item.listingPageImgDirection"
                                         @click.native="scrollToTop"
-                                        :style="{backgroundImage:'url('+item.mainImg+')'}"
+                                        :style="{backgroundImage:'url('+item.listingPageImg+')'}"
                                         data-aos="fade-right"
                                         data-aos-delay="200">
                             </router-link>

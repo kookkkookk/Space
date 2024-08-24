@@ -5,6 +5,8 @@ app
 .vscode
 *.lnk
 /.sass-cache
-other/*
-backup_oldFn/*
+other
+backup_oldFn
+backup_online_version
+dist
 debug.log

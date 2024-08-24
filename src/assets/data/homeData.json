@@ -5,6 +5,7 @@
     },
     {
         "bannerDesktopImg": [
+            "./images/Home/00_banner_desktop06.jpg",
             "./images/Home/00_banner_desktop01.jpg",
             "./images/Home/00_banner_desktop02.jpg",
             "./images/Home/00_banner_desktop03.jpg",
@@ -12,6 +13,7 @@
             "./images/Home/00_banner_desktop05.jpg"
         ],
         "bannerMobileImg": [
+            "./images/Home/00_banner_mobile06.jpg",
             "./images/Home/00_banner_mobile01.jpg",
             "./images/Home/00_banner_mobile02.jpg",
             "./images/Home/00_banner_mobile03.jpg",

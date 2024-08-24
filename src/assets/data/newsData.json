@@ -1,5 +1,55 @@
 [
-
+    {
+        "typeName": "巡禮",
+        "subTypeName": "WORKS",
+        "title": "福樺建設",
+        "subTitle": "林口「富貴中⼭」⾨廳公設",
+        "subTitleTwo": "回家映入眼前—「鐵窗花隔屏」，^重現台灣50年代鐵花窗<br><br>^^",
+        "description": [
+            "鐵件隔屏構思自50年代鐵窗花形式，設計原意，意象源於「鼎」字，「鼎」代表擔當與誠信，如「鼎中柱」、「一言九鼎」。",
+            "夏禹之時，天下分為九卅. 夏禹從九州集得足量的金、銅在荊州山下鑄造了九鼎，以之承受天的德澤，從而「鼎」自食器的身分轉為天上賜福的表徵。",
+            "鐵塑作品  By Javan Chen"
+        ],
+        "listingPageImg": "./images/News/news03/01_listingPic01.jpg",
+        "listingPageImgDirection": "horizontal",
+        "mainImg": "./images/News/news03/01_mainPic01.jpg",
+        "mainImgDirection": "straight",
+        "switchPic": [],
+        "displayAreaGroup": [
+            {
+                "title": "鐵塑作品",
+                "alignmentDirection": "top",
+                "displayPic": [
+                    {
+                        "img": "./images/News/news03/01_showcase01-1.jpg",
+                        "imgDirection": "horizontal"
+                    },
+                    {
+                        "img": "./images/News/news03/01_showcase01-2.jpg",
+                        "imgDirection": "straight"
+                    },
+                    {
+                        "img": "./images/News/news03/01_showcase01-3.jpg",
+                        "imgDirection": "straight"
+                    }
+                ]
+            },
+            {
+                "title": "門廳公設",
+                "alignmentDirection": "top",
+                "displayPic": [
+                    {
+                        "img": "./images/News/news03/01_showcase02-1.jpg",
+                        "imgDirection": "horizontal"
+                    },
+                    {
+                        "img": "./images/News/news03/01_showcase02-2.jpg",
+                        "imgDirection": "horizontal"
+                    }
+                ]
+            }
+        ]
+    },
     {
         "typeName": "獲獎",
         "subTypeName": "AWARD",
@@ -7,6 +57,8 @@
         "subTitle": "Skyline Library 天空書院<br>^觀景茶室",
         "subTitleTwo": "榮獲「英國國際地產」亞太區建築<br>^混用建築類室內設計奬項",
         "description": [],
+        "listingPageImg": "./images/News/news02/01_listingPic01.jpg",
+        "listingPageImgDirection": "horizontal",
         "mainImg": "./images/News/news02/01_mainPic01.jpg",
         "mainImgDirection": "straight",
         "switchPic": [],
