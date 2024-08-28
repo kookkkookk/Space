@@ -436,6 +436,10 @@
             @include SCREEN_1366{
                 margin-top: 60px;
             }
+            @include SCREEN_736{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
             >div{
                 width: auto;
                 max-width: 80%;
@@ -462,6 +466,11 @@
                         font-size: 14px;
                         line-height: 24px;
                     }
+                    @include SCREEN_736{
+                        font-size: $generalText;
+                        line-height: $generalTextLineHeight;
+                        padding-left: 18px;
+                    }
                     span.worksPopDescriptionLine{
                         width: 1px;
                         height: 100%;
@@ -478,6 +487,11 @@
                         }
                         @include SCREEN_1024{
                             min-height: 110px;
+                        }
+                        @include SCREEN_736{
+                            max-height: 85px;
+                            min-height: auto;
+                            margin-top: 8px;
                         }
                     }
                 }
@@ -622,6 +636,10 @@
             @include SCREEN_1366{
                 margin-top: 65px;
             }
+            @include SCREEN_736{
+                margin-top: 50px;
+                margin-bottom: 50px;
+            }
             >div{
                 width: auto;
                 max-width: 80%;
@@ -648,6 +666,11 @@
                         font-size: 14px;
                         line-height: 24px;
                     }
+                    @include SCREEN_736{
+                        font-size: $generalText;
+                        line-height: $generalTextLineHeight;
+                        padding-left: 18px;
+                    }
                     span.worksPopDescriptionLine2{
                         width: 1px;
                         height: 100%;
@@ -658,6 +681,11 @@
                         left: 0;
                         @include SCREEN_1366{
                             max-height: 112px;
+                        }
+                        @include SCREEN_736{
+                            max-height: 85px;
+                            min-height: auto;
+                            margin-top: 8px;
                         }
                     }
                 }

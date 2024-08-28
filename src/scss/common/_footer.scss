@@ -127,6 +127,9 @@ footer{
                     }
                     &:hover a{
                         background-position: 0 100%;
+                        @include SCREEN_736{
+                            background-position: top;
+                        }
                     }
                     a{
                         width: 55px;

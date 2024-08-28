@@ -178,9 +178,9 @@ export default {
                     <p v-html="(!isMobile ? stateWorkPageData[popOpenActive].description.replace(/\^/g,'') : stateWorkPageData[popOpenActive].description.replace(/\<br\>/g,'').replace(/\^/g,'<br\>'))"></p>
                 </div>
             </div>
-            <div data-aos="fade-down" class="introductionContent" v-if="!isMobile">
-                <div v-if="stateWorkPageData[popOpenActive].introduction != ''">
-                    <p v-html="'<span class=worksPopDescriptionLine></span>'+stateWorkPageData[popOpenActive].introduction"></p>
+            <div data-aos="fade-down" class="introductionContent">
+                <div v-if="stateWorkPageData[popOpenActive].introduction">
+                    <p v-html="'<span class=worksPopDescriptionLine></span>' + (!isMobile ? stateWorkPageData[popOpenActive].introduction.replace(/\^/g,'') : stateWorkPageData[popOpenActive].introduction.replace(/\<br\>/g,'').replace(/\^/g,'<br\>'))"></p>
                 </div>
             </div>
         </div>
@@ -209,9 +209,9 @@ export default {
             </div>
             <div class="swiper-pagination swiper-pagination-bullets" slot="pagination"></div>
             
-            <div class="designConceptContent" data-aos="fade-down" v-if="!isMobile">
-                <div v-if="stateWorkPageData[popOpenActive].designConcept != ''">
-                    <p v-html="'<span class=worksPopDescriptionLine2></span>'+stateWorkPageData[popOpenActive].designConcept"></p>
+            <div class="designConceptContent" data-aos="fade-down">
+                <div v-if="stateWorkPageData[popOpenActive].designConcept">
+                    <p v-html="'<span class=worksPopDescriptionLine2></span>' + (!isMobile ? stateWorkPageData[popOpenActive].designConcept.replace(/\^/g,'') : stateWorkPageData[popOpenActive].designConcept.replace(/\<br\>/g,'').replace(/\^/g,'<br\>'))"></p>
                 </div>
             </div>
         </div>
