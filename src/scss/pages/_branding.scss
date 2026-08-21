@@ -903,8 +903,8 @@
                         }
                     }
                     >h4{
-                        font-family: 'MyriadPro-Bold';
-                        font-weight: bold;
+                        font-family: $fontFamilyBase;
+                        font-weight: $fontWeightBold;
                         font-style: italic;
                         font-size: 60px;
                         margin-left: -8px;

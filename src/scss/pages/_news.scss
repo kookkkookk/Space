@@ -106,7 +106,8 @@
                 .cover{
                     >h2{
                         @include SCREEN_736{
-                            font-family: 'MyriadPro-Light';
+                            font-family: $fontFamilyBase;
+                            font-weight: $fontWeightLight;
                             font-size: 26px;
                             line-height: 40px;
                             color: #1e1e1e;
@@ -209,7 +210,8 @@
                         }
                     }
                     >h2{
-                        font-family: 'MyriadPro-Light';
+                        font-family: $fontFamilyBase;
+                        font-weight: $fontWeightLight;
                         font-size: 30px;
                         color: #1e1e1e;
                         line-height: 80px;

@@ -56,8 +56,8 @@
                         float: left;
                     }
                     >a{
-                        font-family: 'MyriadPro-Bold';
-                        //font-weight: bold;
+                        font-family: $fontFamilyBase;
+                        font-weight: $fontWeightBold;
                         font-size: 22px;
                         color: #dedede;
                         line-height: 40px;

@@ -126,7 +126,6 @@
         }
         >div{
             >h1{
-                // font-family: 'MyriadPro-Light';
                 font-size: 55px;
                 // letter-spacing: 0.05em;
                 color: #020202;
@@ -142,8 +141,8 @@
                 }
             }
             >h2{
-                font-family: 'MyriadPro-Light';
-                font-weight: normal;
+                font-family: $fontFamilyBase;
+                font-weight: $fontWeightLight;
                 font-size: 50px;
                 color: #020202;
                 @include SCREEN_1366{
@@ -360,8 +359,8 @@
     }
     >div{
         >h1{
-            font-family: 'MyriadPro-Light';
-            font-weight: bold;
+            font-family: $fontFamilyBase;
+            font-weight: $fontWeightBold;
             font-size: 30px;
             color: #a7a7a7;
             letter-spacing: 0.2em;

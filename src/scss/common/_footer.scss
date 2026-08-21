@@ -76,9 +76,9 @@ footer{
                     }
                 }
                 >a{
-                    font-family: 'MyriadPro-Light';
+                    font-family: $fontFamilyBase;
                     display: block;
-                    font-weight: bold;
+                    font-weight: $fontWeightBold;
                     font-size: 23px;
                     color: #4b4b4b;
                     margin-top: 8px;

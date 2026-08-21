@@ -1,41 +1,6 @@
 @charset "utf-8";
 
-// @font-face {
-//   font-family: 'MyriadPro-LightSemiExt';
-//   src: url('/assets/MyriadPro-LightSemiExt.ttf') format("truetype");
-// }
-@font-face {
-  font-family: "MyriadPro-Light";
-	// src: url('~MyriadPro-Light.ttf') format("truetype");
-	src: local("MyriadPro-Light"),
-         url('~MyriadPro-Light.woff') format("woff"),
-         url('~MyriadPro-Light.ttf') format("truetype"),
-         url('~MyriadPro-Light.eot') format("embedded-opentype");
-}
-@font-face {
-  font-family: "MyriadPro-Bold";
-	// src: url('~MyriadPro-Bold_2.ttf') format("truetype");
-	// src: url('/assets/MYRIADPRO-BOLD.ttf') format("truetype");
-	src: local("MyriadPro-Bold"),
-         url('~MyriadPro-Bold_2.woff') format("woff"),
-         url('~MyriadPro-Bold_2.ttf') format("truetype"),
-         url('~MyriadPro-Bold_2.eot') format("embedded-opentype");
-}
-
-@font-face {
-	font-family: custom-sans-serif;
-	src: local("Heiti TC"),
-		 local("微軟正黑體"),
-		 local("Microsoft JhengHei");
-	unicode-range: U+4E00-9FFF;
-}
-
-@font-face {
-	font-family: custom-sans-serif;
-	src: local(Helvetica),
-		 local(Segoe UI);
-	unicode-range: U+00-024F;
-}
+// 字型皆由 template.html 的 Google Fonts link 載入（Roboto + 思源黑體 Noto Sans TC）
 
 *, *:before, *:after{
 	margin: 0;
@@ -48,11 +13,14 @@ body, html{
 	position: relative;
 	width: 100%;
 	height: 100%;
-	font-family: custom-sans-serif, "Microsoft JhengHei", "Heiti TC", "PMingLiU", "Arial Unicode MS", sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-webkit-overflow-scrolling: touch;
 	-webkit-text-size-adjust: none;
 }
+html {
+	font-family: 'Roboto', 'Noto Sans TC', 'Heiti TC', sans-serif;
+}
+
 [v-cloak] {
 	display: none;
 }

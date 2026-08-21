@@ -21,8 +21,8 @@
             height: auto;
         }
         >h1{
-            //font-family: 'MyriadPro-LightSemiExt';
-            font-family: 'MyriadPro-Light';
+            font-family: $fontFamilyBase;
+            font-weight: $fontWeightLight;
             font-size: 120px;
             color: #585858;
             letter-spacing: 0.1em;
