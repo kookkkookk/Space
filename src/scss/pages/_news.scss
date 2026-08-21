@@ -191,7 +191,7 @@
                     >h1{
                         font-size: 36px;
                         color: #1e1e1e;
-                        font-weight: bold;
+                        font-weight: $fontWeightBold;
                         line-height: 80px;
                         float: left;
                         border-bottom: 2px solid #1e1e1e;
@@ -869,7 +869,7 @@
                 >li{
                     >a{
                         font-size: 16px;
-                        font-weight: bold;
+                        font-weight: $fontWeightBold;
                         color: #fff;
                     }
                     padding: 20px 0;

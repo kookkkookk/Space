@@ -192,7 +192,7 @@
                     text-align: center;
                 }
                 >span{
-                    font-weight: bold;
+                    font-weight: $fontWeightBold;
                 }
             }
             .creator{
@@ -208,7 +208,7 @@
                 font-size: 30px;
                 line-height: 55px;
                 color: #131313;
-                font-weight: bold;
+                font-weight: $fontWeightBold;
                 margin-left: 210px;
                 display: inline-block;
                 letter-spacing: 0.04em;
@@ -236,7 +236,7 @@
             >h2{
                 font-size: 20px;
                 color: #373737;
-                font-weight: 550;
+                font-weight: $fontWeightBold;
                 line-height: 32px;
                 margin-left: 210px;
                 margin-top: 55px;
@@ -287,7 +287,7 @@
                 >li{
                     font-size: 16px;
                     color: #373737;
-                    font-weight: 550;
+                    font-weight: $fontWeightBold;
                     line-height: 28px;
                     @include SCREEN_1024{
                         font-size: 14px;
@@ -508,13 +508,13 @@
                     margin-top: 40px;
                 }
                 >span{
-                    font-weight: bold;
+                    font-weight: $fontWeightBold;
                 }
             }
             >h1{
                 font-size: 30px;
                 color: #131313;
-                font-weight: bold;
+                font-weight: $fontWeightBold;
                 margin-top: 90px;
                 white-space: nowrap;
                 @include SCREEN_1600{
@@ -643,7 +643,7 @@
                 font-size: $largeText;
                 text-align: center;
             }
-            >span{font-weight: bold;}
+            >span{font-weight: $fontWeightBold;}
         }
     }
     .collectionWorksContent{
@@ -685,7 +685,7 @@
                 @include SCREEN_736{
                     font-size: $contentText;
                     line-height: $contentTextLineHeight;
-                    font-weight: 550;
+                    font-weight: $fontWeightBold;
                     margin-bottom: 10px;
                 }
             }
@@ -805,7 +805,7 @@
                     margin-top: 15px;
                 }
             }
-            >span{font-weight: bold;}
+            >span{font-weight: $fontWeightBold;}
             @include SCREEN_1600{
                 font-size: 24px;
             }
@@ -829,7 +829,7 @@
             >h2{
                 font-size: 30px;
                 color: #000;
-                font-weight: bold;
+                font-weight: $fontWeightBold;
                 @include SCREEN_1600{
                     font-size: 28px;
                 }
@@ -904,7 +904,7 @@
                     }
                     >h4{
                         font-family: $fontFamilyBase;
-                        font-weight: $fontWeightBold;
+                        font-weight: $fontWeightSemiBold;
                         font-style: italic;
                         font-size: 60px;
                         margin-left: -8px;

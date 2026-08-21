@@ -173,7 +173,7 @@
                 margin-left: 30px;
                 text-align: left;
             }
-            >span{font-weight: bold;}
+            >span{font-weight: $fontWeightBold;}
         }
         .discoveryDesignContentGroup{
             position: relative;
@@ -191,7 +191,7 @@
                 >h1{
                     font-size: 30px;
                     color: #000;
-                    font-weight: bold;
+                    font-weight: $fontWeightBold;
                     @include SCREEN_1600{
                         font-size: 26px;
                     }
@@ -349,7 +349,7 @@
                 font-size: 0;
                 >h1{
                     font-size: $contentText;
-                    font-weight: bold;
+                    font-weight: $fontWeightBold;
                     padding: 0 30px;
                 }
                 >p{
@@ -453,7 +453,7 @@
                 margin-left: 30px;
                 text-align: left;
             }
-            >span{font-weight: bold;}
+            >span{font-weight: $fontWeightBold;}
         }
         .choiceContent{
             margin-top: 50px;
@@ -523,7 +523,7 @@
                     >h2{
                         font-size: 30px;
                         color: #000;
-                        font-weight: bold;
+                        font-weight: $fontWeightBold;
                         @include SCREEN_1600{
                             font-size: 26px;
                         }

@@ -129,7 +129,7 @@
                 font-size: 55px;
                 // letter-spacing: 0.05em;
                 color: #020202;
-                font-weight: 900;
+                font-weight: bold;
                 @include SCREEN_1366{
                     font-size: 45px;
                 }
@@ -368,7 +368,7 @@
             @include SCREEN_736{
                 font-size: $largeText;
                 text-align: center;
-                font-weight: bold;
+                font-weight: $fontWeightBold;
             }
             // @include SCREEN_414{
             //     font-size: 24px;

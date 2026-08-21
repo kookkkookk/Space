@@ -1,9 +1,11 @@
 //字型（英數用 Roboto，中文用思源黑體 Noto Sans TC，皆由 Google Fonts 載入）
 $fontFamilyBase: 'Roboto', 'Noto Sans TC', 'Heiti TC', sans-serif;
-//對應 Roboto 的 Light / Regular / Bold 字重
+//原特殊字型只有 Light 與 Bold 兩種，對應 Roboto 的 Light(300) 與 Regular(400)
+//Bold 若用 700 會比原字型明顯過粗，故取 400
 $fontWeightLight: 300;
-$fontWeightNormal: 400;
-$fontWeightBold: 700;
+$fontWeightBold: 400;
+//僅 branding 頁 stepContent 的數字標題使用（斜體 600）
+$fontWeightSemiBold: 600;
 
 //min
 @mixin SCREEN_1600n{
